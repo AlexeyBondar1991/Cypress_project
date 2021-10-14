@@ -40,7 +40,7 @@ it('Using get with find and eq', () => {
     cy.visit('https://docs.cypress.io/api/commands/eq#Syntax')
     cy.get('.main-content').find('div').find('nav').find('ul').find('li').find('a')
 });
-//comment test
+
 it.only('Using get with find and eq', () => {
     cy.viewport(1800, 700)
     cy.visit('https://docs.cypress.io/api/commands/eq#Syntax')
