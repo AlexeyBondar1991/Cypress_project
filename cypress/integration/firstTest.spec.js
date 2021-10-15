@@ -51,8 +51,8 @@ it('check is correct URL',()=>{
 
 it.only('check is correct attr in button',()=>{
     cy.visit('https://next.privat24.ua?lang=en')
-    cy.get('[data-qa-node="transferWidget"]')
-    cy.click()
+    cy.get('form[method="post"]').contains('Payment')
+    
     
     
 })
